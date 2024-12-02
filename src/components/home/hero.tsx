@@ -4,8 +4,8 @@ import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
+import Button from '@mui/material/Button'
 import { Link as ScrollLink } from 'react-scroll'
-import { StyledButton } from '@/components/styled-button'
 
 const exps: Array<{ label: string; value: string }> = [
   {
@@ -84,7 +84,7 @@ const HomeHero: FC = () => {
               </Box>
               <Box sx={{ '& button': { mr: 2 } }}>
                 <ScrollLink to="popular-course" spy={true} smooth={true} offset={0} duration={350}>
-                  <StyledButton
+                  <Button
                     size="large"
                     variant="contained"
                     sx={{
@@ -94,10 +94,10 @@ const HomeHero: FC = () => {
                     }}
                   >
                     Discover Events
-                  </StyledButton>
+                  </Button>
                 </ScrollLink>
                 <ScrollLink to="community-section" spy={true} smooth={true} offset={0} duration={350}>
-                  <StyledButton
+                  <Button
                     size="large"
                     variant="outlined"
                     sx={{
@@ -111,7 +111,7 @@ const HomeHero: FC = () => {
                     }}
                   >
                     Join Community
-                  </StyledButton>
+                  </Button>
                 </ScrollLink>
               </Box>
             </Box>
