@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
-import { Box, Typography } from '@mui/material'
+import Image from 'next/image'
+import { Box } from '@mui/material'
 
 interface Props {
   onClick?: () => void
@@ -7,15 +8,23 @@ interface Props {
 }
 
 const Logo: FC<Props> = ({ onClick, variant }) => {
+  const size = variant === 'secondary' ? { width: 48, height: 36 } : { width: 84, height: 63 }
+
   return (
-    <Box onClick={onClick}>
-      <Typography
-        variant="h4"
-        component="h1"
-        sx={{ fontWeight: 700, '& span': { color: variant === 'primary' ? 'primary.main' : 'unset' } }}
-      >
-        Course<span>space</span>
-      </Typography>
+    <Box
+      onClick={onClick}
+      sx={{
+        cursor: 'pointer',
+        display: 'inline-block',
+      }}
+    >
+      <Image
+        src="/images/logo.png"
+        width={size.width}
+        height={size.height}
+        quality={100}
+        alt="LOGO"
+      />
     </Box>
   )
 }

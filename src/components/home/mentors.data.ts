@@ -3,50 +3,50 @@ import type { Mentor } from '@/interfaces/mentor'
 export const data: Array<Mentor> = [
   {
     id: 1,
-    photo: '/images/mentors/christian-buehner-DItYlc26zVI-unsplash.jpg',
-    name: 'Jhon Dwirian',
-    category: 'UI/UX Design',
+    photo: '/images/mentors/anand.jpg',
+    name: 'Anandsagar Shiralkar',
+    category: 'Startup expert',
     description:
       'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     company: {
-      name: 'Grab',
-      logo: '/images/companies/grab.png',
+      name: 'Rian',
+      logo: '/images/companies/rian.png',
     },
   },
   {
     id: 2,
-    photo: '/images/mentors/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg',
-    name: 'Leon S Kennedy',
-    category: 'Machine Learning',
+    photo: '/images/mentors/sample.jpg',
+    name: 'Abcd Efgh',
+    category: 'Industry Leader',
     description:
       'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     company: {
-      name: 'Google',
-      logo: '/images/companies/google.png',
+      name: 'XYZ',
+      logo: '/images/companies/XYZ.png',
     },
   },
   {
     id: 3,
-    photo: '/images/mentors/noah-buscher-8A7fD6Y5VF8-unsplash.jpg',
-    name: 'Nguyễn Thuy',
-    category: 'Android Development',
+    photo: '/images/mentors/sample.jpg',
+    name: 'Abcd Efgh',
+    category: 'Industry Leader',
     description:
       'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     company: {
-      name: 'Airbnb',
-      logo: '/images/companies/airbnb.png',
+      name: 'XYZ',
+      logo: '/images/companies/XYZ.png',
     },
   },
   {
     id: 4,
-    photo: '/images/mentors/philip-martin-5aGUyCW_PJw-unsplash.jpg',
-    name: 'Rizki Known',
-    category: 'Fullstack Development',
+    photo: '/images/mentors/sample.jpg',
+    name: 'Abcd Efgh',
+    category: 'Industry Leader',
     description:
       'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     company: {
-      name: 'Microsoft',
-      logo: '/images/companies/microsoft.png',
+      name: 'XYZ',
+      logo: '/images/companies/XYZ.png',
     },
   },
 ]
